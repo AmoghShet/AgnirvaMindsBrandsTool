@@ -4,7 +4,7 @@ import csv
 import re
 
 # Define the input and output file paths
-input_file = 'theemail.txt'
+input_file = input("Enter the name of the file (must be placed in same folder as this script): ")
 output_csv_file = 'output.csv'
 
 # Regular expression pattern to extract names
